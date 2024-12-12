@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 760px;
+    width: 1200px;
+    background-image: url('../imagenes/fondopared.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'lovelace', lovelace; /* Agrega tu fuente local aquí */
+}
+.container {
+    display: block;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.container a{
+    text-decoration: none; /* Quitar subrayado predeterminado de los enlaces */
+    color: inherit; /* Heredar el color del texto del contenedor */
+}
+
+h1{
+    padding: 8%;
+}

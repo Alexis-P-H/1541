@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--El siguiente script es de la librería QRious script-->
+	<script src="https://unpkg.com/qrious@4.0.2/dist/qrious.js"></script>
+	<link rel="stylesheet" href="css/styleOcultarQrs_tokenCheck.css">
+	<title>Generar códigos QR - By Parzibyte</title>
+	<!-- Etiqueta estilo que se pasará a styleQRsInline.css cuando este listo -->
+	<style>
+		body {
+			background-color: rgb(182, 150, 7);
+		}
+
+		.BodyContainerDiv {
+			background-color: rgb(0, 0, 0);
+			display: block;
+		}
+
+		div {
+			background-color: blueviolet;
+			height: auto;
+			width: auto;
+			padding-left: 40px;
+		}
+
+		#container-QR {
+			background-color: aquamarine;
+			border: solid 1px;
+			border-color: gray;
+		}
+	</style>
+</head>
+<body>
+	<div id="BodyContainerDiv" class="BodyContainerDiv">
+		<div class="container-QR">
+			<div class="viewQrHistory">
+				Este es codigo 1
+				<a href="historia1.html" id="codigo1" class="codigo2">JISTORIA 2</a>
+			</div>
+		</div>
+		<div class="container-QR">
+			<div class="viewQrHistory">
+				Este es codigo 2
+				<a href="historia1.html" id="codigo2" class="codigo2">JISTORIA 2</a>
+			</div>
+		</div>
+		<div class="container-QR">
+			<div class="viewQrHistory">
+				Este es codigo 3
+				<a href="historia1.html" id="codigo3" class="codigo3">HISTORIA 3</a>
+			</div>
+		</div>
+		<div class="container-QR">
+			<div class="viewQrHistory">
+				Este es codigo 4
+				<a href="historia1.html" id="codigo4" class="codigo4">HISTORIA 4</a>
+			</div>
+		</div>
+		<div class="container-QR">
+			<div class="viewQrHistory">
+				Este es codigo 5
+				<a href="historia1.html" id="codigo5" class="codigo5">HISTORIA 5</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/Qr.js"></script>
+	<script src="js/Qr_codes_tokenCheck.js"></script>
+</body>
+</html>

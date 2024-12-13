@@ -1,0 +1,60 @@
+/* Estilo para la sección del mapa */
+.mapa-section {
+    background-image: url('../imagenes/fondopared.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #000;
+}
+
+.mapa-titulo {
+    font-family: 'Lovelace', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.mapa-contenido {
+    font-family: 'Lovelace', sans-serif;
+  }
+
+.mapa-item {
+    font-size: 3vw;
+    font-weight: "Permanent Marker", cursive;
+    color: orange;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 10px 0;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-shadow: 3px  0px 0px black,
+    0px  3px 0px black,
+   -3px  0px 0px black,
+    0px -3px 0px black;
+}
+
+.mapa-item:hover {
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+a{
+    font-size: 3vw;
+    font-weight: "Permanent Marker", cursive;
+    color: orange;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 10px 0;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-shadow: 3px  0px 0px black,
+    0px  3px 0px black,
+   -3px  0px 0px black,
+    0px -3px 0px black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a{
+    color: #ffcc00;
+    cursor: pointer;
+}

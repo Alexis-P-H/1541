@@ -1,26 +1,108 @@
-body{
+/* Restaurar fuentes */
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('../Font/Permanent_Marker/PermanentMarker-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('../Font/Lovelace/Zetafonts-LovelaceTextRegular.otf');
+}
+
+body {
     margin: 0;
     padding: 0;
-    height: 760px;
-    width: 1200px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lovelace', Lovelace;
     background-image: url('../imagenes/fondopared.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    font-family: 'lovelace', lovelace; /* Agrega tu fuente local aquí */
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
+
 .container {
-    display: block;
-    padding: 50px;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 20px;
     border-radius: 10px;
-    margin-top: 50px;
+    height: auto;
 }
 
-.container a{
-    text-decoration: none; /* Quitar subrayado predeterminado de los enlaces */
-    color: inherit; /* Heredar el color del texto del contenedor */
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 3rem;
+    margin: 10% 0 15px;
+    cursor: pointer;
 }
 
-h1{
-    padding: 8%;
+h2:hover {
+    color: #ff5733;
+}
+
+a {
+    color: #333;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #ff5733;
+}
+
+.contenido-oculto {
+    display: none;
+}
+
+.content-desplegado {
+    font-family: 'Permanent Marker', Permanent Marker;
+    font-style: normal;
+}
+
+.contenido-oculto a {
+    color: orange;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 3px 0px 0px black,
+        0px 3px 0px black,
+        -3px 0px 0px black,
+        0px -3px 0px black;
+}
+
+.contenido-oculto.activo {
+    display: block;
+}
+
+footer{
+    color: thistle;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .contenido-oculto a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .contenido-oculto a {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
 }

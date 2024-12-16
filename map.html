@@ -1,29 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://unpkg.com/qrious@4.0.2/dist/qrious.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/styleMap.css">
 	<title>Mapa</title>
 </head>
 
 <body>
 	<div class="mapa-section">
+		<a href="index.html" class="back-button">&larr;</a>
 		<h2 class="mapa-titulo">Mapa</h2>
-		<div id="mapa-contenido" class="mapa-contenido">
-				<p id="codigo1" class="mapa-item" data-texto="PELEA DE GALLOS" data-url="historia1.html">?</p>
-				<p href="historia1.html" id="codigo2" class="mapa-item">?</p>
-				<p href="historia1.html" id="codigo3" class="mapa-item">?</p>
-				<p href="historia1.html" id="codigo4" class="mapa-item">?</p>
-				<p href="historia1.html" id="codigo5" class="mapa-item">?</p>
+		<div class="mapa-contenido">
+			<a class="mapa-item" id="codigo1" data-texto="PELEA DE GALLOS" data-url="historia1.html">?</a>
+			<a class="mapa-item" id="codigo2" data-texto="Arroz con pollo" data-url="historia1.html">?</a>
+			<a class="mapa-item" id="codigo3" data-texto="Tu mamita" data-url="historia1.html">?</a>
+			<a class="mapa-item" id="codigo4" data-texto="EEe jejejejej" data-url="historia1.html">?</a>
+			<a class="mapa-item" id="codigo5" data-texto="Miau miau" data-url="historia1.html">?</a>
 		</div>
 	</div>
-
-	<script src="js/Qr.js"></script>
-	<script src="js/Qr_codes_tokenCheck.js"></script>
+	<footer>
+		&copy; 2024 Historia. Todos los derechos reservados.
+	</footer>
+	<script src="js/map.js"></script>
 </body>
-
 </html>

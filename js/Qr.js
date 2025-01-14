@@ -9,7 +9,7 @@ new QRious({
 
 new QRious({
     element: document.querySelector("#codigo2"),
-    value: "file:///D:/Proyectos/personal/1541proyectDavid/map.html?code=randomizeCode2", // La URL o el texto
+    value: "https://alexis-p-h.github.io/1541/map.html?code=randomizeCode2", // La URL o el texto
     size: 200,
     backgroundAlpha: 0, // 0 para fondo transparente
     foreground: "black", // Color del QR
@@ -18,7 +18,7 @@ new QRious({
 
 new QRious({
     element: document.querySelector("#codigo3"),
-    value: "file:///D:/Proyectos/personal/1541proyectDavid/map.html?code=randomizeCode3", // La URL o el texto
+    value: "https://alexis-p-h.github.io/1541/map.html?code=randomizeCode3", // La URL o el texto
     size: 200,
     backgroundAlpha: 0, // 0 para fondo transparente
     foreground: "black", // Color del QR
@@ -27,7 +27,7 @@ new QRious({
 
 new QRious({
     element: document.querySelector("#codigo4"),
-    value: "file:///D:/Proyectos/personal/1541proyectDavid/map.html?code=randomizeCode4", // La URL o el texto
+    value: "https://alexis-p-h.github.io/1541/map.html?code=randomizeCode4", // La URL o el texto
     size: 200,
     backgroundAlpha: 0, // 0 para fondo transparente
     foreground: "black", // Color del QR
@@ -36,7 +36,7 @@ new QRious({
 
 new QRious({
     element: document.querySelector("#codigo5"),
-    value: "file:///D:/Proyectos/personal/1541proyectDavid/map.html?code=randomizeCode5", // La URL o el texto
+    value: "https://alexis-p-h.github.io/1541/map.html?code=randomizeCode5", // La URL o el texto
     size: 200,
     backgroundAlpha: 0, // 0 para fondo transparente
     foreground: "black", // Color del QR

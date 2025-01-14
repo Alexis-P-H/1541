@@ -38,7 +38,7 @@ html{
 }
 
 .mapa-titulo {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     margin-top: 2%;
     color: #333;
@@ -46,7 +46,7 @@ html{
 
 .mapa-item {
     display: block;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: "Permanent Marker", Permanent Marker;
     color: orange;
     margin: 10px;
@@ -119,7 +119,7 @@ footer {
 
 @media (max-width: 768px) {
     .mapa-titulo{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     
     .mapa-item{
@@ -137,18 +137,12 @@ footer {
         margin-top: 12%;
     }
 
-    .contenido-oculto a{
-        padding: 0px;
-        margin: 20px 0px 20px 0px;
-        font-size: 2.5rem;
-    }
-
     .mapa-titulo{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     
     .mapa-item{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
 

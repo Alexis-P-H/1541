@@ -1,6 +1,6 @@
 new QRious({
     element: document.querySelector("#codigo1"),
-    value: "file:///D:/Proyectos/personal/1541proyectDavid/map.html?code=randomizeCode1", // La URL o el texto
+    value: "https://alexis-p-h.github.io/1541/map.html?code=randomizeCode1", // La URL o el texto
     size: 200,
     backgroundAlpha: 0, // 0 para fondo transparente
     foreground: "black", // Color del QR

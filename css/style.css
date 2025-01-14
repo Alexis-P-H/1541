@@ -28,7 +28,7 @@ html{
 
 .container {
     max-width: 600px;
-    margin: 10% auto;
+    margin: 5% auto;
     padding: 10px;
     border-radius: 10px;
     height: auto;
@@ -38,7 +38,7 @@ h2 {
     margin: 0px;
     color: #333;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
 }
 
@@ -47,7 +47,7 @@ h2:hover {
 }
 
 a {
-    margin: 50px 0px 0px 0px;
+    margin: 10% 0px 0px 0px;
     color: #333;
     display: block;
     text-decoration: none;
@@ -70,7 +70,7 @@ a:hover {
 .contenido-oculto a {
     margin-top: 20px;
     color: orange;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bolder;
     text-shadow: 3px 0px 0px black,
         0px 3px 0px black,
@@ -83,7 +83,7 @@ a:hover {
 }
 
 footer {
-    font-size: 2vw;
+    font-size: 1vw;
     color: aliceblue;
     position: fixed;
     left: 0px;
@@ -98,22 +98,23 @@ footer {
 @media (max-width: 768px) {
 
     .container{
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .contenido-oculto a{
         padding: 0px;
-        margin: 10% 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
         font-size: 2rem;
     }
 
     a{
-        padding-top: 10%;
-        margin: 0px;
+
+        padding:0px;
+        margin: 15% 0px 0px 0px;
     }
 
     h2{
-        font-size: 3rem;
+        font-size: 2.5em;
     }
 
     footer{
@@ -134,7 +135,6 @@ footer {
     }
 
     a{
-
         padding:0px;
         margin: 15% 0px 0px 0px;
     }

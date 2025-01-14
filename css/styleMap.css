@@ -1,94 +1,102 @@
 /* General Styles */
 @font-face {
     font-family: Permanent Marker;
-    src: url(../Font/Permanent_Marker/PermanentMarker-Regular.ttf);
+    src: url('../Font/Permanent_Marker/PermanentMarker-Regular.ttf');
 }
 
 @font-face {
     font-family: Lovelace;
-    src: url(../Font/Lovelace/Zetafonts-LovelaceTextRegular.otf);
+    src: url('../Font/Lovelace/Zetafonts-LovelaceTextRegular.otf');
 }
 
+/* Estilos base */
 body {
-    padding: 1px;
-    margin: 0px;
-    height: 100%;
-    text-align: center;
+    margin: 0;
+    padding: 0;
     font-family: 'Lovelace', Lovelace;
-    background-image: url('../imagenes/fondopared.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-}
-
-html{
-    height: 100%;
-    background-color: #ff5733;
-}
-
-.mapa-section {
-    padding: 20px;
-    text-align: center;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-    color: #000;
-    margin: 0px auto;
-    border-radius: 10px;
-}
-
-.mapa-titulo {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    margin-top: 2%;
+    line-height: 1.6;
     color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.mapa-item {
-    display: block;
+p{
+    font-family: 'Permanent Marker', Permanent Marker;
+}
+
+.book-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.back-button {
     font-size: 3rem;
-    font-family: "Permanent Marker", Permanent Marker;
-    color: orange;
-    margin: 10px;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-    text-shadow: 3px 0px 0px black,
-        0px 3px 0px black,
-        -3px 0px 0px black,
-        0px -3px 0px black;
-}
-
-.mapa-item:hover {
-    color: #ffcc00;
-    cursor: pointer;
-}
-
-a {
-    font-size: 2rem;
-    font-weight: "Permanent Marker", Permanent Marker;
-    color: orange;
-    margin: 20px 0px;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-    text-shadow: 3px 0px 0px black,
-        0px 3px 0px black,
-        -3px 0px 0px black,
-        0px -3px 0px black;
+    color: red;
+    margin-right: 5%;
     text-decoration: none;
-    cursor: pointer;
+    display: inline-block;
+    text-shadow: 3px 0px 0px black,
+        0px 3px 0px black,
+        -3px 0px 0px black,
+        0px -3px 0px black;
 }
 
-a:hover {
+.back-button:hover {
     color: #ffcc00;
-    cursor: pointer;
 }
 
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+main {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+main p {
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.8rem;
+    }
+
+    main p {
+        font-size: 0.9rem;
+    }
+}
 
 .back-button {
     font-size: 3rem;
     font-family: 'Permanent Marker', serif;
     color: red;
-    margin: 10px 0px;
+    margin: 10px 0;
     margin-right: 80%;
     text-decoration: none;
     display: inline-block;
@@ -103,50 +111,54 @@ a:hover {
     color: #ffcc00;
 }
 
+header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
 
-footer {
+main {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+main p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+footer{
+    color: thistle;
     font-size: 2vw;
-    color: aliceblue;
     position: fixed;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    padding: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20;
     display: grid;
     place-content: center;
 }
 
-
 @media (max-width: 768px) {
-    .mapa-titulo{
-        font-size: 4rem;
-    }
-    
-    .mapa-item{
-        font-size: 3rem;
+    header {
+        font-size: 2rem;
     }
 
-    footer{
-        font-size: 3vw;
+    main p {
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 480px) {
-
-    .container{
-        margin-top: 12%;
+    header {
+        font-size: 1.8rem;
     }
 
-    .mapa-titulo{
-        font-size: 3rem;
-    }
-    
-    .mapa-item{
-        font-size: 2rem;
-    }
-
-
-    footer{
-        font-size: 4vw;
+    main p {
+        font-size: 0.9rem;
     }
 }

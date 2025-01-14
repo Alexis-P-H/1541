@@ -12,12 +12,9 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
     font-family: 'Lovelace', Lovelace;
     background-image: url('../imagenes/fondopared.jpg');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
@@ -25,7 +22,7 @@ body {
 .container {
     max-width: 600px;
     margin: 5% auto;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     height: auto;
 }
@@ -34,7 +31,7 @@ h2 {
     color: #333;
     text-align: center;
     font-size: 3rem;
-    margin: 10% 0 15px;
+    margin: 8% 0 15px;
     cursor: pointer;
 }
 
@@ -76,14 +73,23 @@ a:hover {
     display: block;
 }
 
-footer{
-    color: thistle;
-    margin-top: 10%;
-    margin-left: 35%;
+footer {
+    font-size: 2vw;
+    color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20;
+    display: grid;
+    place-content: center;
 }
 
 /* Responsividad */
 @media (max-width: 768px) {
+    body{
+        height: 568px;
+    }
     h2 {
         font-size: 2.5rem;
     }
@@ -91,9 +97,13 @@ footer{
     .contenido-oculto a {
         font-size: 1.5rem;
     }
+
 }
 
 @media (max-width: 480px) {
+    body{
+        height: 568px ;
+    }
     h2 {
         font-size: 2rem;
     }

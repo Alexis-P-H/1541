@@ -10,16 +10,20 @@
 }
 
 body {
+    padding: 1px;
     margin: 0px;
-    padding: 0px;
     height: 100%;
-    width: 100%;
+    text-align: center;
     font-family: 'Lovelace', Lovelace;
-    background-color: #f9f9f9;
     background-image: url('../imagenes/fondopared.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+}
+
+html{
+    height: 100%;
+    background-color: #ff5733;
 }
 
 .mapa-section {
@@ -42,7 +46,7 @@ body {
 
 .mapa-item {
     display: block;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Permanent Marker", Permanent Marker;
     color: orange;
     margin: 10px;
@@ -112,41 +116,43 @@ footer {
     place-content: center;
 }
 
-/* Responsividad */
+
 @media (max-width: 768px) {
-    body{
-        height: 568px;
+    .mapa-titulo{
+        font-size: 5rem;
     }
-    .mapa-titulo {
-        font-size: 2.5rem;
-    }
-
-    .mapa-item {
-        font-size: 1.5rem;
+    
+    .mapa-item{
+        font-size: 3rem;
     }
 
-    .back-button {
-        font-size: 2rem;
+    footer{
+        font-size: 3vw;
     }
 }
 
 @media (max-width: 480px) {
-    body{
-        height: 568px; 
-    }
-    .mapa-titulo {
-        font-size: 2rem;
+
+    .container{
+        margin-top: 12%;
     }
 
-    .mapa-item {
-        font-size: 1.2rem;
+    .contenido-oculto a{
+        padding: 0px;
+        margin: 20px 0px 20px 0px;
+        font-size: 2.5rem;
     }
 
-    .back-button {
-        font-size: 1.8rem;
+    .mapa-titulo{
+        font-size: 5rem;
+    }
+    
+    .mapa-item{
+        font-size: 3rem;
     }
 
-    .mapa-section {
-        padding: 15px;
+
+    footer{
+        font-size: 4vw;
     }
 }

@@ -10,8 +10,9 @@
 }
 
 body {
+    padding: 1px;
     margin: 0px;
-    padding: 0px;
+    height: 100%;
     text-align: center;
     font-family: 'Lovelace', Lovelace;
     background-image: url('../imagenes/fondopared.jpg');
@@ -20,19 +21,24 @@ body {
     overflow-x: hidden;
 }
 
+html{
+    height: 100%;
+    background-color: #ff5733;
+}
+
 .container {
     max-width: 600px;
-    margin: 5% auto;
+    margin: 10% auto;
     padding: 10px;
     border-radius: 10px;
     height: auto;
 }
 
 h2 {
+    margin: 0px;
     color: #333;
     text-align: center;
-    font-size: 3rem;
-    margin: 8% 0px 15px;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 
@@ -41,6 +47,7 @@ h2:hover {
 }
 
 a {
+    margin: 50px 0px 0px 0px;
     color: #333;
     display: block;
     text-decoration: none;
@@ -61,8 +68,9 @@ a:hover {
 }
 
 .contenido-oculto a {
+    margin-top: 20px;
     color: orange;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     text-shadow: 3px 0px 0px black,
         0px 3px 0px black,
@@ -86,34 +94,55 @@ footer {
     place-content: center;
 }
 
-/* Responsividad */
+
 @media (max-width: 768px) {
-    body{
-        height: 568px;
-    }
-    h2 {
-        font-size: 2.5rem;
+
+    .container{
+        margin-top: 18%;
     }
 
-    .contenido-oculto a {
-        font-size: 1.5rem;
+    .contenido-oculto a{
+        padding: 0px;
+        margin: 10% 0px 0px 0px;
+        font-size: 3rem;
     }
 
+    a{
+        padding-top: 10%;
+        margin: 0px;
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+    footer{
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 480px) {
-    body{
-        height: 568px ;
-    }
-    h2 {
-        font-size: 2rem;
+
+    .container{
+        margin-top: 12%;
     }
 
-    .contenido-oculto a {
-        font-size: 1.2rem;
+    .contenido-oculto a{
+        padding: 0px;
+        margin: 20px 0px 20px 0px;
+        font-size: 2.5rem;
     }
 
-    .container {
-        padding: 15px;
+    a{
+        padding:0px;
+        margin: 20% 0px 0px 0px;
+    }
+
+    h2{
+        font-size: 3.5em;
+    }
+
+    footer{
+        font-size: 5vw;
     }
 }

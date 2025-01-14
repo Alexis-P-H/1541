@@ -12,8 +12,8 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    heigh: 100%;
+    width: 1920px;
+    heigh: 1080px;
     font-family: 'Lovelace', Lovelace;
     background-image: url('../imagenes/fondopared.jpg');
     background-size: cover;

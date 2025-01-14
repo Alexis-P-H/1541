@@ -11,10 +11,10 @@
 
 /* Estilos base */
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Merriweathe', Merriweathe;
-    line-height: 1.6;
+    line-height: 1.6px;
     color: #333;
     background-color: #f4f4f4;
     display: flex;
@@ -33,7 +33,7 @@ p{
     max-width: 800px;
     width: 90%;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
     padding: 20px;
@@ -43,7 +43,7 @@ p{
     font-size: 3rem;
     font-family: 'open-sans', open-sans;
     color: red;
-    margin: 10px 0;
+    margin: 10px 0px;
     margin-right: 80%;
     text-decoration: none;
     display: inline-block;
@@ -98,7 +98,7 @@ main p {
     font-size: 3rem;
     font-family: 'Permanent Marker', serif;
     color: red;
-    margin: 10px 0;
+    margin: 10px 0px;
     margin-right: 80%;
     text-decoration: none;
     display: inline-block;
@@ -137,10 +137,10 @@ footer{
     color: thistle;
     font-size: 2vw;
     position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 20;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
     display: grid;
     place-content: center;
 }
